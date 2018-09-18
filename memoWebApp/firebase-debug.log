@@ -1,0 +1,28 @@
+[debug] [2018-09-18T03:26:37.770Z] ----------------------------------------------------------------------
+[debug] [2018-09-18T03:26:37.772Z] Command:       /usr/local/Cellar/node/8.9.1/bin/node /usr/local/bin/firebase serve
+[debug] [2018-09-18T03:26:37.772Z] CLI Version:   4.2.1
+[debug] [2018-09-18T03:26:37.772Z] Platform:      darwin
+[debug] [2018-09-18T03:26:37.772Z] Node Version:  v8.9.1
+[debug] [2018-09-18T03:26:37.773Z] Time:          Tue Sep 18 2018 12:26:37 GMT+0900 (KST)
+[debug] [2018-09-18T03:26:37.773Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-18T03:26:37.785Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-18T03:26:37.786Z] > authorizing via signed-in user
+[debug] [2018-09-18T03:26:37.787Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-09-18T03:26:37.787Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-09-18T03:26:38.122Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-18T03:26:38.141Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/memowebapp-d6ec4  
+ 
+[debug] [2018-09-18T03:26:39.046Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-18T03:26:39.047Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/memowebapp-d6ec4  
+ 
+[debug] [2018-09-18T03:26:39.988Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/bullseye/workspace/firebase/memoWebApp'...
+[info] 
+[debug] [2018-09-18T03:26:39.990Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/262457670197/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-18T03:26:40.631Z] <<< HTTP RESPONSE 200
+[info] i  hosting[memowebapp-d6ec4]: Serving hosting files from: public
+[info] ✔  hosting[memowebapp-d6ec4]: Local server: http://localhost:5000
